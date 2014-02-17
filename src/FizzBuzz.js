@@ -15,13 +15,14 @@ fizzyBuzzy = function(number) {
   if(isDivisibleByFifteen(number)) {
     return 'FizzBuzz';
   }
-  if (isDivisibleByThree(number)) {
+
+  else {if (isDivisibleByThree(number)) {
     return 'Fizz';
   }
 
-  if (isDivisibleByFive(number)) {
+  else {if (isDivisibleByFive(number)) {
     return 'Buzz';
   }
 
   return number;
-};
+};};};
